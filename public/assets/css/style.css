@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #219ebc;
+    --primary-hover-color: #023047;
+    --complementary-color: #ffb703;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.header .title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.header .navigation {
+    display: flex;
+}
+
+.header .navigation a {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-left: 3.2rem;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.9rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.error {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FF9494;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 68rem;
+    color: #D8000C;
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-align: center;
+    border: 1px solid #D8000C;
+    border-radius: .5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 5rem;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 70rem;
+}
+.grid-item {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+}
+.grid-item-header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+}
